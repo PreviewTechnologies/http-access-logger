@@ -6,7 +6,6 @@ all the usages.
 Currently [Google DataStore](https://cloud.google.com/datastore) has been added as a Storage Provider. Everybody welcome to 
 add more provider to it.
 
-[![Latest Stable Version](https://poser.pugx.org/previewtechs/http-access-logger/v/stable)](https://packagist.org/previewtechs/http-access-logger)
 [![License](https://img.shields.io/packagist/l/previewtechs/http-access-logger.svg)](https://github.com/PreviewTechnologies/http-access-logger/blob/master/LICENSE)
 [![Build Status](https://api.travis-ci.org/PreviewTechnologies/http-access-logger.svg?branch=master)](https://travis-ci.org/PreviewTechnologies/http-access-logger)
 [![Code Coverage](https://scrutinizer-ci.com/g/PreviewTechnologies/http-access-logger/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/PreviewTechnologies/http-access-logger/?branch=master)
