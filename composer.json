@@ -1,0 +1,32 @@
+{
+    "name": "previewtechs/http-access-logger",
+    "description": "HTTP access logs saved to any storage provider. ",
+    "keywords": [
+        "http-access",
+        "log"
+    ],
+    "homepage": "http://github.com/PreviewTechnologies",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Preview Technologies Limited",
+            "email": "info@previewtechs.com",
+            "homepage": "https://www.previewtechs.com/"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.5.9",
+        "ext-curl": "*",
+        "tomwalder/php-gds": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "squizlabs/php_codesniffer": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Previewtechs\\HTTP\\AccessLogger\\": "src"
+        }
+    }
+}
