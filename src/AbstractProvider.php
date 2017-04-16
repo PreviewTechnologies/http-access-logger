@@ -44,13 +44,8 @@ abstract class AbstractProvider
      */
     public function getVersion()
     {
-        $uri = explode("/", $this->request->getUri());
-
-        if (strpos($uri[0], 'v') === false) {
-            return null;
-        }
-
-        return $uri[0];
+        preg_match("/\/v[0-9]\//", $this->request->getUri(), $match);
+        return str_replace('/', '', $match[0]);
     }
 
     /**
