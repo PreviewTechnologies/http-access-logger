@@ -18,15 +18,19 @@
     "require": {
         "php": ">=5.5.9",
         "ext-curl": "*",
-        "tomwalder/php-gds": "^3.0"
+        "tomwalder/php-gds": "^3.0",
+        "psr/log": "^1.0",
+        "psr/http-message": "^1.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "~4.0",
-        "squizlabs/php_codesniffer": "~2.0"
+        "phpunit/phpunit": "^4.0",
+        "squizlabs/php_codesniffer": "^2.0",
+        "mockery/mockery": "^0.9.9"
     },
     "autoload": {
         "psr-4": {
-            "Previewtechs\\HTTP\\AccessLogger\\": "src"
+            "Previewtechs\\HTTP\\AccessLogger\\": "src",
+            "Previewtechs\\HTTP\\AccessLogger\\Tests\\": "tests"
         }
     }
 }

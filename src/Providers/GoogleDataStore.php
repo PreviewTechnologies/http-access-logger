@@ -2,12 +2,18 @@
 
 namespace Previewtechs\HTTP\AccessLogger\Providers;
 
-
 use GDS\Store;
 use Previewtechs\HTTP\AccessLogger\StorageInterface;
 
+/**
+ * Class GoogleDataStore
+ * @package Previewtechs\HTTP\AccessLogger\Providers
+ */
 class GoogleDataStore implements StorageInterface
 {
+    /**
+     * @var array
+     */
     public $data = [];
 
     /**
@@ -15,6 +21,10 @@ class GoogleDataStore implements StorageInterface
      */
     private $gds;
 
+    /**
+     * GoogleDataStore constructor.
+     * @param $client
+     */
     public function __construct($client)
     {
         $this->gds = $client;
@@ -39,6 +49,4 @@ class GoogleDataStore implements StorageInterface
     {
         return $this->data;
     }
-
-
 }

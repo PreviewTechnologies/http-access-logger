@@ -1,3 +1,5 @@
 .idea/*
 .git/*
 vendor/*
+build/*
+composer.lock
